@@ -1,0 +1,37 @@
+# Inquis: Expense – Personal Finance Tracker
+
+This project started as something I built in my first year of college — a small Python script that recorded daily expenses in the simplest way possible.  
+It stayed unfinished for quite some time until I came across it again recently while going through my old work.  
+I decided to rework it properly, more as a personal exercise in applying what I’ve learned since then.
+
+What began as a few lines of code eventually turned into two complete, working versions — one as a desktop application and the other as a web app.  
+I also made use of AI tools during this process, mainly to help with refactoring, interface design, and some of the Streamlit components.
+
+---
+
+## 🧩 Project Versions
+
+| Version | Description | Technologies |
+|----------|--------------|--------------|
+| **v2-expnctrackerv2.py** | A desktop GUI built with Tkinter and SQLite. Includes category-wise charts and persistent data storage. | Tkinter, SQLite, Matplotlib |
+| **v3-expnctrackerv3.py** | A web application built using Streamlit, offering a clean interface and browser-based accessibility. | Streamlit, Pandas, Matplotlib |
+
+---
+
+ Why I Revisited It
+
+There wasn’t any particular reason beyond curiosity and the thought that it would be nice to see what I could do with it now.
+It became a small side project that helped me combine what I had learned over time — from basic scripting to interface design and web development.
+The goal wasn’t to make it perfect, just to make it functional, clean, and worth showing as a complete idea.
+
+Key Features
+
+- Persistent expense storage using SQLite
+
+- Smart keyword-based category suggestions
+
+- Simple visual analysis through bar charts
+
+- Works both as a standalone desktop app and as a browser-accessible web app
+
+- Built with  assistance from AI tools for structuring and refinement
