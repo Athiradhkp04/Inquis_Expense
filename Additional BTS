@@ -1,43 +1,92 @@
-# Inquis: Expense – Personal Finance Tracker
+# 💰 Inquis – Personal Finance Analytics Platform
 
-This project started as something I built in my first year of college — a small Python script that recorded daily expenses in the simplest way possible.  
-It stayed unfinished for quite some time until I came across it again recently while going through my old work.  
-I decided to rework it properly, more as a personal exercise in applying what I’ve learned since then.
+Inquis is a personal finance analytics application built with Python, Streamlit, SQLite, Pandas, and Plotly.
 
-What began as a few lines of code eventually turned into two complete, working versions — one as a desktop application and the other as a web app.  
-I also made use of AI tools during this process, mainly to help with refactoring, interface design, and some of the Streamlit components.
+Originally created as a simple expense tracking project during my first year of college, it was later revisited and redesigned into a full analytics-focused application featuring budgeting tools, spending insights, KPI dashboards, and interactive visualizations.
 
----
-
-## 🧩 Project Versions
-
-| Version | Description | Technologies |
-|----------|--------------|--------------|
-| **v2-expnctrackerv2.py** | A desktop GUI built with Tkinter and SQLite. Includes category-wise charts and persistent data storage. | Tkinter, SQLite, Matplotlib |
-| **v3-expnctrackerv3.py** | A web application built using Streamlit, offering a clean interface and browser-based accessibility. | Streamlit, Pandas, Matplotlib |
+The project serves as both a personal finance management tool and a demonstration of data handling, analytics, dashboard development, and full-cycle project iteration.
 
 ---
 
- Why I Revisited It
+## 🚀 Features
 
-There wasn’t any particular reason beyond curiosity and the thought that it would be nice to see what I could do with it now.
-It became a small side project that helped me combine what I had learned over time — from basic scripting to interface design and web development.
-The goal wasn’t to make it perfect, just to make it functional, clean, and worth showing as a complete idea.
+### Expense Management
 
-Key Features
+* Add and track expenses
+* Attach notes to transactions
+* Backdate expenses for historical record keeping
+* Delete individual transactions
+* Clear all transactions with confirmation safeguards
 
-- Persistent expense storage using SQLite
+### Budget Management
 
-- Smart keyword-based category suggestions
+* Set monthly spending budgets
+* Track remaining budget in real time
+* Monitor budget utilization percentage
 
-- Simple visual analysis through bar charts
+### Analytics Dashboard
 
-- Works both as a standalone desktop app and as a browser-accessible web app
+* Total spending overview
+* Budget tracking metrics
+* Remaining budget calculations
+* Top spending category identification
+* Financial Health Score
 
-- Built with  assistance from AI tools for structuring and refinement
+### Smart Insights
 
-Author: Athiradh
+* Spending pattern summaries
+* Budget utilization insights
+* Category contribution analysis
+
+### Data Visualization
+
+* Interactive spending distribution pie chart
+* Category-wise spending analysis
+* Daily spending trend visualization
+
+---
+
+## 🛠 Tech Stack
+
+* Python
+* Streamlit
+* SQLite
+* Pandas
+* Plotly
+
+---
+
+## 📂 Project Structure
+
+| Version | Description                                                                    |
+| ------- | ------------------------------------------------------------------------------ |
+| v2      | Desktop application built using Tkinter, SQLite, and Matplotlib                |
+| v3      | Web-based analytics platform built using Streamlit, SQLite, Pandas, and Plotly |
+
+---
+
+## 🏃 Running Locally
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the application:
+
+streamlit run expnctrackerv3.py
+
+---
+
+## 📖 Project Background
+
+This project began as a small expense tracking application developed during my first year of college. After revisiting the original codebase, I decided to rebuild and expand it using more modern tools and design principles.
+
+The redevelopment process focused on improving usability, analytics capabilities, data visualization, and overall user experience. AI-assisted development tools were used during portions of the refactoring and interface design process.
+
+---
+
+## 👤 Author
+
+Athiradh
+
 Project Suite: Inquis
-Language: Python
-
-...................................................................................................!!
